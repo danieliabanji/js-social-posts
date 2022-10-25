@@ -134,7 +134,7 @@ postMetaIcon.forEach((document, i) => {
         posts[i].author.name.split(' ').forEach(h => {
             c += h.charAt().toUpperCase();
         });
-        document.innerHTML = `<div class="letter-upper-case">${c}</div>`;
+        document.innerHTML = `<div class="profile-pic-default"><span>${c}</span></div>`;
     }
 })
 
